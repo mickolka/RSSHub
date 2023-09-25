@@ -2148,7 +2148,7 @@
     ".": [
       {
         "title": "Latest Article",
-        "docs": "https://docs.rsshub.app/finance#ainvest",
+        "docs": "https://docs.rsshub.app/routes/finance#ainvest",
         "source": [
           "/news"
         ],
@@ -2156,7 +2156,7 @@
       },
       {
         "title": "Latest News",
-        "docs": "https://docs.rsshub.app/finance#ainvest",
+        "docs": "https://docs.rsshub.app/routes/finance#ainvest",
         "source": [
           "/news"
         ],
@@ -2606,14 +2606,6 @@
   "apple.com": {
     "_name": "Apple",
     "apps": [
-      {
-        "title": "应用更新",
-        "docs": "https://docs.rsshub.app/routes/program-update#app-store-mac-app-store",
-        "source": [
-          "/:contry/app/:id"
-        ],
-        "target": "/appstore/update/:country/:id"
-      },
       {
         "title": "价格更新",
         "docs": "https://docs.rsshub.app/routes/program-update#app-store-mac-app-store",
@@ -4482,7 +4474,7 @@
     "www.genetics": [
       {
         "title": "遗传与生物学研究所 - 学术活动",
-        "docs": "https://docs.rsshub.app/university.html#zhong-guo-ke-xue-yuan",
+        "docs": "https://docs.rsshub.app/routes/university#zhong-guo-ke-xue-yuan",
         "source": [
           "/jixs/yg",
           "/"
@@ -9469,7 +9461,7 @@
     "insider": [
       {
         "title": "Bullets",
-        "docs": "https://docs.rsshub.app/en/routes/finance#finology-insider",
+        "docs": "https://docs.rsshub.app/routes/finance#finology-insider",
         "source": [
           "/bullets"
         ],
@@ -9477,19 +9469,19 @@
       },
       {
         "title": "Category",
-        "docs": "https://docs.rsshub.app/en/routes/finance#finology-insider",
+        "docs": "https://docs.rsshub.app/routes/finance#finology-insider",
         "source": "/:category",
         "target": "/finology/:category"
       },
       {
         "title": "Most Viewed",
-        "docs": "https://docs.rsshub.app/en/routes/finance#finology-insider",
+        "docs": "https://docs.rsshub.app/routes/finance#finology-insider",
         "source": "/most-viewed",
         "target": "/finology/most-viewed/monthly"
       },
       {
         "title": "Trending Topic",
-        "docs": "https://docs.rsshub.app/en/routes/finance#finology-insider",
+        "docs": "https://docs.rsshub.app/routes/finance#finology-insider",
         "source": [
           "/tag/:topic"
         ],
@@ -10355,6 +10347,19 @@
       }
     ]
   },
+  "gogoanimehd.io": {
+    "_name": "Gogoanime",
+    "developer": [
+      {
+        "title": "Recent Releases",
+        "docs": "https://docs.rsshub.app/routes/anime#gogoanimehd",
+        "source": [
+          "/"
+        ],
+        "target": "/gogoanimehd/recent-releases"
+      }
+    ]
+  },
   "good.news": {
     "_name": "Good.news",
     ".": [
@@ -10832,6 +10837,23 @@
           "/"
         ],
         "target": "/gov/chongqing/rsks"
+      },
+      {
+        "title": "重庆事业单位公开招聘",
+        "docs": "https://docs.rsshub.app/routes/government#chong-qing-shi-ren-min-zheng-fu",
+        "source": [
+          "/"
+        ],
+        "target": "/gov/chongqing/sydwgkzp"
+      }
+    ],
+    "gzw": [
+      {
+        "title": "国有资产监督管理委员会",
+        "docs": "https://docs.rsshub.app/routes/government#chong-qing-shi-ren-min-zheng-fu-guo-you-zi-chan-jian-du-guan-li-wei-yuan-hui",
+        "source": [
+          "/:category*"
+        ]
       }
     ]
   },
@@ -11678,7 +11700,7 @@
     ".": [
       {
         "title": "Articles",
-        "docs": "https://docs.rsshub.app/en/routes/new-media#grist",
+        "docs": "https://docs.rsshub.app/routes/new-media#grist",
         "source": [
           "/articles/"
         ],
@@ -11686,19 +11708,19 @@
       },
       {
         "title": "Featured",
-        "docs": "https://docs.rsshub.app/en/routes/new-media#grist",
+        "docs": "https://docs.rsshub.app/routes/new-media#grist",
         "source": "/",
         "target": "/grist/featured"
       },
       {
         "title": "Series",
-        "docs": "https://docs.rsshub.app/en/routes/new-media#grist",
+        "docs": "https://docs.rsshub.app/routes/new-media#grist",
         "source": "/series/:series",
         "target": "/grist/series/:series"
       },
       {
         "title": "Topic",
-        "docs": "https://docs.rsshub.app/en/routes/new-media#grist",
+        "docs": "https://docs.rsshub.app/routes/new-media#grist",
         "source": [
           "/:topic"
         ],
@@ -11898,6 +11920,17 @@
         "target": "/gxmzu/aitzgg"
       }
     ],
+    "library": [
+      {
+        "title": "图书馆最新消息",
+        "docs": "https://docs.rsshub.app/routes/unversity#guang-xi-min-zu-da-xue-tu-shu-guan-zui-xin-xiao-xi",
+        "source": [
+          "/news/news_list.jsp",
+          "/"
+        ],
+        "target": "/gxmzu/libzxxx"
+      }
+    ],
     "yjs": [
       {
         "title": "研究生院招生公告",
@@ -12028,6 +12061,19 @@
         "source": [
           "/:profile"
         ]
+      }
+    ]
+  },
+  "hackyournews.com": {
+    "_name": "HackYourNews",
+    ".": [
+      {
+        "title": "Index",
+        "docs": "https://docs.rsshub.app/routes/programming#hack-your-news",
+        "source": [
+          "/"
+        ],
+        "target": "/hackyournews"
       }
     ]
   },
@@ -13164,7 +13210,7 @@
     ".": [
       {
         "title": "外汇牌价",
-        "docs": "https://docs.rsshub.app/other#zhong-guo-gong-shang-yin-hang",
+        "docs": "https://docs.rsshub.app/routes/other#zhong-guo-gong-shang-yin-hang",
         "source": [
           "/column/1438058341489590354.html"
         ],
@@ -16471,7 +16517,7 @@
     ".": [
       {
         "title": "频道",
-        "docs": "https://docs.rsshub.app/new-media.html#mu-mu-bo-ke",
+        "docs": "https://docs.rsshub.app/routes/new-media#mu-mu-bo-ke",
         "source": [
           "/:channel",
           "/"
@@ -16479,7 +16525,7 @@
       },
       {
         "title": "标签",
-        "docs": "https://docs.rsshub.app/new-media.html#mu-mu-bo-ke",
+        "docs": "https://docs.rsshub.app/routes/new-media#mu-mu-bo-ke",
         "source": [
           "/tag/:id",
           "/"
@@ -16488,7 +16534,7 @@
       },
       {
         "title": "专题",
-        "docs": "https://docs.rsshub.app/new-media.html#mu-mu-bo-ke",
+        "docs": "https://docs.rsshub.app/routes/new-media#mu-mu-bo-ke",
         "source": [
           "/series/:id",
           "/"
@@ -16497,7 +16543,7 @@
       },
       {
         "title": "搜索",
-        "docs": "https://docs.rsshub.app/new-media.html#mu-mu-bo-ke",
+        "docs": "https://docs.rsshub.app/routes/new-media#mu-mu-bo-ke",
         "source": [
           "/search/:keyword",
           "/"
@@ -16506,7 +16552,7 @@
       },
       {
         "title": "60秒读懂世界",
-        "docs": "https://docs.rsshub.app/new-media.html#mu-mu-bo-ke",
+        "docs": "https://docs.rsshub.app/routes/new-media#mu-mu-bo-ke",
         "source": [
           "/kuaixun",
           "/"
@@ -16515,7 +16561,7 @@
       },
       {
         "title": "网络营销",
-        "docs": "https://docs.rsshub.app/new-media.html#mu-mu-bo-ke",
+        "docs": "https://docs.rsshub.app/routes/new-media#mu-mu-bo-ke",
         "source": [
           "/:channel",
           "/"
@@ -16663,7 +16709,7 @@
     ".": [
       {
         "title": "教学部通知公告",
-        "docs": "https://docs.rsshub.app/university.html#le-shan-shi-fan-xue-yuan",
+        "docs": "https://docs.rsshub.app/routes/university#le-shan-shi-fan-xue-yuan",
         "source": [
           "/"
         ],
@@ -18779,6 +18825,36 @@
       }
     ]
   },
+  "niaogebiji.com": {
+    "_name": "鸟哥笔记",
+    ".": [
+      {
+        "title": "首页",
+        "docs": "https://docs.rsshub.app/routes/new-media#niao-ge-bi-ji",
+        "source": [
+          "/"
+        ],
+        "target": "/niaogebiji"
+      },
+      {
+        "title": "今日事",
+        "docs": "https://docs.rsshub.app/routes/new-media#niao-ge-bi-ji",
+        "source": [
+          "/",
+          "/bulletin"
+        ],
+        "target": "/niaogebiji"
+      },
+      {
+        "title": "分类目录",
+        "docs": "https://docs.rsshub.app/routes/new-media#niao-ge-bi-ji",
+        "source": [
+          "/cat/:cat"
+        ],
+        "target": "/niaogebiji/cat/:cat"
+      }
+    ]
+  },
   "nifd.cn": {
     "_name": "国家金融与发展实验室",
     "www": [
@@ -19995,7 +20071,7 @@
     ".": [
       {
         "title": "关键词搜索",
-        "docs": "https://docs.rsshub.app/anime.htm#an-の3dエロ-dong-hua-oreno3d-guan-jian-ci-sou-suo",
+        "docs": "https://docs.rsshub.app/routes/anime#an-の3dエロ-dong-hua-oreno3d-guan-jian-ci-sou-suo",
         "source": [
           "/search"
         ]
@@ -20078,6 +20154,16 @@
         "source": [
           "/explore"
         ]
+      }
+    ]
+  },
+  "ppy.sh": {
+    "_name": "osu!",
+    "osu": [
+      {
+        "title": "Beatmap Pack",
+        "docs": "https://docs.rsshub.app/routes/game#osu-beatmap-packs",
+        "source": "/beatmaps/packs"
       }
     ]
   },
@@ -23806,6 +23892,16 @@
       }
     ]
   },
+  "sourceforge.net": {
+    "_name": "SourceForge",
+    "www": [
+      {
+        "title": "Software",
+        "docs": "https://docs.rsshub.app/routes/program-update#sourceforge",
+        "source": "/directory"
+      }
+    ]
+  },
   "nfapp.southcn.com": {
     "_name": "南方网",
     ".": [
@@ -23901,7 +23997,7 @@
     ".": [
       {
         "title": "官网信息",
-        "docs": "https://docs.rsshub.app/university.html#xin-xiang-yi-xue-yuan-san-quan-xue-yuan",
+        "docs": "https://docs.rsshub.app/routes/university#xin-xiang-yi-xue-yuan-san-quan-xue-yuan",
         "source": [
           "/:category/list.htm"
         ],
@@ -24256,6 +24352,121 @@
           "/"
         ],
         "target": "/supchina/podcasts"
+      }
+    ]
+  },
+  "surfshark.com": {
+    "_name": "Surfshark",
+    ".": [
+      {
+        "title": "Blog",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/blog/:category*"
+        ]
+      },
+      {
+        "title": "Blog - Cybersecurity",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/cybersecurity"
+        ],
+        "target": "/surfshark/blog/cybersecurity"
+      },
+      {
+        "title": "Blog - All things VPN",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/all-things-vpn"
+        ],
+        "target": "/surfshark/blog/all-things-vpn"
+      },
+      {
+        "title": "Blog - Internet censorship",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/internet-censorship"
+        ],
+        "target": "/surfshark/blog/internet-censorship"
+      },
+      {
+        "title": "Blog - Entertainment",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/entertainment"
+        ],
+        "target": "/surfshark/blog/entertainment"
+      },
+      {
+        "title": "Blog - News",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/news"
+        ],
+        "target": "/surfshark/blog/news"
+      },
+      {
+        "title": "Blog - Internet Security",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/cybersecurity/internet-security",
+          "/blog/cybersecurity"
+        ],
+        "target": "/surfshark/blog/cybersecurity/internet-security"
+      },
+      {
+        "title": "Blog - Mobile Security",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/cybersecurity/mobile-security",
+          "/blog/cybersecurity"
+        ],
+        "target": "/surfshark/blog/cybersecurity/mobile-security"
+      },
+      {
+        "title": "Blog - Identity Protection",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/cybersecurity/identity-protection",
+          "/blog/cybersecurity"
+        ],
+        "target": "/surfshark/blog/cybersecurity/identity-protection"
+      },
+      {
+        "title": "Blog - Phishing",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/cybersecurity/phishing",
+          "/blog/cybersecurity"
+        ],
+        "target": "/surfshark/blog/cybersecurity/phishing"
+      },
+      {
+        "title": "Blog - Must-knows",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/all-things-vpn/must-knows",
+          "/blog/all-things-vpn"
+        ],
+        "target": "/surfshark/blog/all-things-vpn/must-knows"
+      },
+      {
+        "title": "Blog - Technology",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/all-things-vpn/technology",
+          "/blog/all-things-vpn"
+        ],
+        "target": "/surfshark/blog/all-things-vpn/technology"
+      },
+      {
+        "title": "Blog - Tips & Advice",
+        "docs": "https://docs.rsshub.app/routes/blog#surfshark-blog",
+        "source": [
+          "/blog/all-things-vpn/tips-and-advice",
+          "/blog/all-things-vpn"
+        ],
+        "target": "/surfshark/blog/all-things-vpn/tips-and-advice"
       }
     ]
   },
@@ -25234,7 +25445,7 @@
     ".": [
       {
         "title": "日历",
-        "docs": "https://docs.rsshub.app/#thbwiki",
+        "docs": "https://docs.rsshub.app/routes/anime#thbwiki",
         "source": [
           "/",
           "/日程表"
@@ -27647,7 +27858,7 @@
     ".": [
       {
         "title": "首页帖子",
-        "docs": "https://docs.rsshub.app/bbs#xiao-te-she-qu",
+        "docs": "https://docs.rsshub.app/routes/bbs#xiao-te-she-qu",
         "source": [
           "/"
         ],
@@ -28447,12 +28658,12 @@
     ".": [
       {
         "title": "影视资讯",
-        "docs": "https://docs.rsshub.app/multimedia#ren-ren-ying-shi",
+        "docs": "https://docs.rsshub.app/routes/multimedia#ren-ren-ying-shi",
         "source": "/article"
       },
       {
         "title": "今日播出",
-        "docs": "https://docs.rsshub.app/multimedia#ren-ren-ying-shi",
+        "docs": "https://docs.rsshub.app/routes/multimedia#ren-ren-ying-shi",
         "source": [
           "/tv/schedule",
           "/"

@@ -464,6 +464,9 @@
     "/app-center/release/:user/:app/:distribution_group": [
         "Rongronggg9"
     ],
+    "/apple/apps/update/:country/:id": [
+        "EkkoG"
+    ],
     "/apple/exchange_repair/:country?": [
         "metowolf",
         "HenryQW",
@@ -474,9 +477,6 @@
     ],
     "/appleinsider/:category?": [
         "nczitzk"
-    ],
-    "/appstore/update/:country/:id": [
-        "HenryQW"
     ],
     "/appstore/price/:country/:type/:id": [
         "HenryQW"
@@ -2291,6 +2291,9 @@
     "/gocn/jobs": [
         "CcccFz"
     ],
+    "/gogoanimehd/recent-releases": [
+        "user4302"
+    ],
     "/good/": [
         "nczitzk"
     ],
@@ -2481,8 +2484,14 @@
     "/gov/beijing/kw/:channel": [
         "Fatpandac"
     ],
+    "/gov/chongqing/gzw/:category?": [
+        "nczitzk"
+    ],
     "/gov/chongqing/rsks": [
         "Mai19930513"
+    ],
+    "/gov/chongqing/sydwgkzp": [
+        "MajexH"
     ],
     "/gov/dianbai/:path+": [
         "ShuiHuo"
@@ -2657,6 +2666,9 @@
     "/gxmzu/aitzgg": [
         "real-jiakai"
     ],
+    "/gxmzu/libzxxx": [
+        "real-jiakai"
+    ],
     "/gxmzu/yjszsgg": [
         "real-jiakai"
     ],
@@ -2691,6 +2703,9 @@
     "/hackmd/profile/:path": [
         "Yukaii",
         "kaiix"
+    ],
+    "/hackyournews/": [
+        "ftiasch"
     ],
     "/hafu/news/:tpye?": [
         "WenPeiTung"
@@ -4055,6 +4070,18 @@
     "/nhk/news_web_easy": [
         "Andiedie"
     ],
+    "/niaogebiji": [
+        "WenryXu"
+    ],
+    "/niaogebiji/": [
+        "WenryXu"
+    ],
+    "/niaogebiji/cat/:cat": [
+        "cKotoriKat"
+    ],
+    "/niaogebiji/today": [
+        "KotoriK"
+    ],
     "/nifd/research/:categoryGuid?": [
         "Fatpandac"
     ],
@@ -4413,6 +4440,9 @@
     ],
     "/oshwhub/:sortType?": [
         "tylinux"
+    ],
+    "/osu/packs/:type?": [
+        "JimenezLi"
     ],
     "/ouc/it/postgraduate": [
         "shengmaosu"
@@ -5305,6 +5335,9 @@
     "/soundofhope/:channel/:id": [
         "Fatpandac"
     ],
+    "/sourceforge/:routeParams?": [
+        "JimenezLi"
+    ],
     "/southcn/nfapp/column/:column?": [
         "TimWu007"
     ],
@@ -5448,6 +5481,9 @@
         "nczitzk"
     ],
     "/supchina/": [
+        "nczitzk"
+    ],
+    "/surfshark/blog/:category?": [
         "nczitzk"
     ],
     "/sustech/bidding": [
@@ -7597,9 +7633,6 @@
     "/gov/chongqing/ljxq/dwgk": [],
     "/gov/chongqing/ljxq/zwgk/:caty": [],
     "/12379": [],
-    "/ngbj": [],
-    "/ngbj/today": [],
-    "/ngbj/cat/:cat": [],
     "/meihua/shots/:caty": [],
     "/meihua/article/:caty": [],
     "/kuaibao": [],
